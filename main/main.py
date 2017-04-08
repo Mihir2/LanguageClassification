@@ -93,5 +93,5 @@ def main(args,ngrams,lam):
 if __name__ == '__main__':
     lam = float(sys.argv[4])
     n = int(sys.argv[3])
-    print main(sys.argv,n,lam)
+    main(sys.argv,n,lam)
     
